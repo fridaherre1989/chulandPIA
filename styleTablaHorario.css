@@ -1,0 +1,77 @@
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Arial', sans-serif;
+}
+
+/* Body */
+body {
+  background-color: #e0f7fa; /* azul pastel suave */
+  color: #01579b; /* azul oscuro */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+/* Títulos centrados */
+h2 {
+  text-align: center;
+  color: #0288d1;
+  margin-bottom: 20px;
+  font-size: 1.8rem;
+}
+
+/* Tablas */
+table {
+  border-collapse: collapse;
+  width: 90%;
+  max-width: 1000px;
+  margin-bottom: 30px;
+  text-align: center;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  background-color: #ffffff;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+/* Cabecera de la tabla */
+th {
+  background-color: #81d4fa; /* azul pastel */
+  color: #01579b;
+  padding: 10px;
+  font-size: 14px;
+}
+
+/* Celdas */
+td {
+  border: 1px solid #b3e5fc;
+  padding: 8px;
+  font-size: 14px;
+}
+
+/* Fila con efecto hover */
+tr:hover {
+  background-color: #e1f5fe;
+}
+
+/* Parrafo centrado */
+p {
+  text-align: center;
+  font-size: 1rem;
+  margin-top: 10px;
+  color: #01579b;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  table {
+    width: 100%;
+    font-size: 12px;
+  }
+  th, td {
+    padding: 6px;
+  }
+}

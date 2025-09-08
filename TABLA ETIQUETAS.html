@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Etiquetas HTML</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        th, td {
+            border: 1px solid #555;
+            padding: 10px;
+            text-align: center;
+        }
+        th {
+            background: #ddd;
+        }
+        td img {
+            width: 40px;
+            height: auto;
+            display: block;
+            margin: 0 auto 5px auto;
+        }
+        ul {
+            list-style-type: none;
+        }
+        ul li {
+            margin: 5px 0;
+        }
+        a {
+            text-decoration: none;
+            color: #0066cc;
+        }
+    </style>
+</head>
+<body>
+    <h1 id="inicio">Etiquetas de Texto y Multimedia</h1>
+
+    <!-- Índice -->
+    <h2>Índice</h2>
+    <ul>
+        <li><a href="#mark">🖍️ Mark</a></li>
+        <li><a href="#small">🔡 Small</a></li>
+        <li><a href="#em">✍️ Em</a></li>
+        <li><a href="#cite">📖 Cite</a></li>
+        <li><a href="#q">💬 Q</a></li>
+        <li><a href="#blockquote">📑 Blockquote</a></li>
+        <li><a href="#abbr">ℹ️ Abbr</a></li>
+        <li><a href="#code">💻 Code</a></li>
+        <li><a href="#supsub">📐 Sup/Sub</a></li>
+        <li><a href="#del">❌ Del</a></li>
+        <li><a href="#img">🖼️ Img</a></li>
+        <li><a href="#iframe">🌐 Iframe</a></li>
+        <li><a href="#video">🎥 Video</a></li>
+    </ul>
+
+    <!-- Tabla -->
+    <table>
+        <tr>
+            <th>Etiqueta</th>
+            <th>Definición</th>
+            <th>Ejemplo</th>
+        </tr>
+
+        <tr id="mark">
+            <td>
+                <img src="https://cdn-icons-png.flaticon.com/512/2985/2985150.png" alt="Mark">
+                <br>Mark
+            </td>
+            <td>Resalta o marca texto importante.</td>
+            <td><mark>Texto resaltado</mark></td>
+        </tr>
+
+        <tr id="small">
+            <td>
+                <img src="https://cdn-icons-png.flaticon.com/512/1827/1827958.png" alt="Small">
+                <br>Small
+            </td>
+            <td>Muestra el texto en tamaño más pequeño.</td>
+            <td><small>Texto en pequeño</small></td>
+        </tr>
+
+        <tr id="em">
+            <td>
+                <img src="https://img.icons8.com/fluency/48/italic.png" alt="Em">
+                <br>Em
+            </td>
+            <td>Da énfasis al texto (generalmente en cursiva).</td>
+            <td><em>Texto enfatizado</em></td>
+        </tr>
+
+        <tr id="cite">
+            <td>
+                <img src="https://img.icons8.com/fluency/48/book.png" alt="Cite">
+                <br>Cite
+            </td>
+            <td>Define el título de una obra o referencia.</td>
+            <td><cite>La Odisea</cite></td>
+        </tr>
+
+        <tr id="q">
+            <td>
+                <img src="https://img.icons8.com/fluency/48/quote-left.png" alt="Q">
+                <br>Q
+            </td>
+            <td>Define una cita textual corta.</td>
+            <td>Ella dijo: <q>Hola</q></td>
+        </tr>
+
+        <tr id="blockquote">
+            <td>
+                <img src="https://img.icons8.com/fluency/48/document.png" alt="Blockquote">
+                <br>Blockquote
+            </td>
+            <td>Indica una cita larga en bloque.</td>
+            <td>
+                <blockquote>Este es un texto citado largo</blockquote>
+            </td>
+        </tr>
+
+        <tr id="abbr">
+            <td>
+                <img src="https://img.icons8.com/fluency/48/info.png" alt="Abbr">
+                <br>Abbr
+            </td>
+            <td>Define una abreviatura con su significado.</td>
+            <td><abbr title="Organización de las Naciones Unidas">ONU</abbr></td>
+        </tr>
+
+        <tr id="code">
+            <td>
+                <img src="https://img.icons8.com/fluency/48/code.png" alt="Code">
+                <br>Code
+            </td>
+            <td>Representa código fuente en texto.</td>
+            <td><code>console.log("Hola Mundo");</code></td>
+        </tr>
+
+        <tr id="supsub">
+            <td>
+                <img src="https://img.icons8.com/fluency/48/formula-fx.png" alt="Sup Sub">
+                <br>Sup/Sub
+            </td>
+            <td>Superíndice o subíndice.</td>
+            <td>MC<sup>2</sup> — H<sub>2</sub>O</td>
+        </tr>
+
+        <tr id="del">
+            <td>
+                <img src="https://cdn-icons-png.flaticon.com/512/1828/1828843.png" alt="Del">
+                <br>Del
+            </td>
+            <td>Tacha un texto (contenido eliminado).</td>
+            <td><del>Texto eliminado</del></td>
+        </tr>
+
+        <!-- Nueva fila: IMG -->
+        <tr id="img">
+            <td>
+                <img src="https://img.icons8.com/fluency/48/image.png" alt="IMG">
+                <br>Img
+            </td>
+            <td>Inserta una imagen en la página web.</td>
+            <td>
+                <img src="https://via.placeholder.com/100x60.png?text=Imagen" alt="Ejemplo IMG">
+                <br>
+                <a href="https://developer.mozilla.org/es/docs/Web/HTML/Element/img" target="_blank">Ver más sobre &lt;img&gt;</a>
+            </td>
+        </tr>
+
+        <!-- Nueva fila: IFRAME -->
+        <tr id="iframe">
+            <td>
+                <img src="https://img.icons8.com/fluency/48/web.png" alt="Iframe">
+                <br>Iframe
+            </td>
+            <td>Inserta otra página o recurso dentro de un marco.</td>
+            <td>
+                <iframe width="200" height="100" src="https://www.wikipedia.org" title="Ejemplo Iframe"></iframe>
+                <br>
+                <a href="https://developer.mozilla.org/es/docs/Web/HTML/Element/iframe" target="_blank">Ver más sobre &lt;iframe&gt;</a>
+            </td>
+        </tr>
+
+        <!-- Nueva fila: VIDEO -->
+        <tr id="video">
+            <td>
+                <img src="https://img.icons8.com/fluency/48/video.png" alt="Video">
+                <br>Video
+            </td>
+            <td>Permite reproducir un video directamente en la página.</td>
+            <td>
+                <video width="200" controls>
+                    <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+                    Tu navegador no soporta video HTML5.
+                </video>
+                <br>
+                <a href="https://developer.mozilla.org/es/docs/Web/HTML/Element/video" target="_blank">Ver más sobre &lt;video&gt;</a>
+            </td>
+        </tr>
+
+    </table>
+
+    <p style="margin-top:20px;"><a href="#inicio">🔝 Volver al inicio</a></p>
+</body>
+</html>

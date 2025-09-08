@@ -1,0 +1,66 @@
+/* Fondo general */
+body {
+    background: linear-gradient(to bottom, #87CEFA, #E0F7FA);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #333;
+}
+
+/* Encabezados */
+header h1 {
+    font-size: 2.5rem;
+    color: #004d80;
+    font-weight: bold;
+}
+header h2 {
+    color: #007acc;
+    margin-bottom: 10px;
+}
+
+/* Días de la semana */
+.dia {
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    transition: transform 0.2s ease-in-out;
+}
+.dia:hover {
+    transform: scale(1.05);
+    background: #f0faff;
+}
+
+/* Íconos de clima */
+.fa-cloud { color: #6c757d; }
+.fa-bolt { color: #ff9800; }
+.fa-cloud-showers-heavy { color: #2196f3; }
+.fa-wind { color: #00acc1; }
+.fa-sun { color: #fdd835; }
+.fa-cloud-moon-rain { color: #5c6bc0; }
+
+/* Tablas */
+.table th {
+    background-color: #007acc;
+    color: white;
+}
+.table-hover tbody tr:hover {
+    background-color: #f0f8ff;
+}
+
+/* Tarjetas */
+.card {
+    border-radius: 12px;
+}
+.sombra {
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+.card-header {
+    background: #007acc;
+    color: white;
+    font-weight: bold;
+}
+
+/* Alertas */
+.alert-info {
+    background: #b3e5fc;
+    border: none;
+    font-size: 1.1rem;
+}

@@ -1,0 +1,97 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Body */
+body {
+    background-color: #e0f7fa; /* azul pastel claro */
+    color: #01579b; /* azul oscuro */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* Header */
+header {
+    width: 100%;
+    background: linear-gradient(90deg, #b3e5fc, #81d4fa);
+    padding: 25px 0;
+    text-align: center;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+}
+
+header h1 {
+    color: #0288d1;
+    font-size: 2rem;
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+}
+
+/* Contenedor principal */
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    gap: 25px;
+}
+
+/* Tarjetas de integrantes con degradado y sombra */
+.integrante {
+    background: linear-gradient(145deg, #b3e5fc, #e1f5fe);
+    border-radius: 15px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 5px 15px rgba(33, 150, 243, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.integrante:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 15px 25px rgba(33, 150, 243, 0.35);
+}
+
+/* Imagen circular con borde y efecto hover */
+.integrante img {
+    border-radius: 50%;
+    border: 3px solid #4fc3f7;
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    margin-bottom: 15px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.integrante:hover img {
+    transform: scale(1.1);
+    box-shadow: 0 0 15px rgba(79, 195, 247, 0.5);
+}
+
+/* Texto dentro de la tarjeta */
+.integrante p {
+    margin-bottom: 10px;
+    font-size: 0.95rem;
+    color: #01579b;
+}
+
+.integrante a {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 7px 14px;
+    background: #4fc3f7;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 8px;
+    font-size: 0.9rem;
+    transition: all 0.3s ease;
+}
+
+.integrante a:hover {
+    background: #0288d1;
+    box-shadow: 0 5px 15px rgba(33, 150, 243, 0.3);
+}

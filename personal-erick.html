@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página Personal - Erick Zamora</title>
+    <style>
+        /* ==== ESTILOS GENERALES ==== */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: #f1f5f9;
+            color: #333;
+        }
+
+        /* ==== HERO ==== */
+        .hero {
+            background: linear-gradient(to right, #0066cc, #003366);
+            color: white;
+            text-align: center;
+            padding: 70px 20px;
+        }
+
+        .hero img {
+            width: 160px;
+            height: 160px;
+            border-radius: 50%;
+            border: 4px solid white;
+            margin-bottom: 15px;
+        }
+
+        .hero h1 {
+            font-size: 2.5rem;
+        }
+
+        .hero p {
+            font-size: 1.2rem;
+        }
+
+        /* ==== CONTENEDOR PRINCIPAL ==== */
+        .container {
+            max-width: 1000px;
+            margin: auto;
+            padding: 40px 20px;
+        }
+
+        .section {
+            background: white;
+            padding: 25px;
+            margin-bottom: 25px;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+        }
+
+        .section h2 {
+            color: #003366;
+            margin-bottom: 12px;
+        }
+
+        /* ==== PRÁCTICAS ==== */
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+            gap: 15px;
+        }
+
+        .practica {
+            display: block;
+            padding: 15px;
+            text-align: center;
+            background: #0066cc;
+            color: white;
+            text-decoration: none;
+            border-radius: 8px;
+            font-weight: 500;
+            transition: 0.3s;
+        }
+
+        .practica:hover {
+            background: #003366;
+        }
+
+        /* ==== FOOTER ==== */
+        footer {
+            background: #001a33;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 30px;
+        }
+
+        /* ==== RESPONSIVE ==== */
+        @media (max-width: 768px) {
+            .hero h1 {
+                font-size: 2rem;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Portada -->
+    <section class="hero">
+        <img src="erick_zamora.jpg" alt="Foto de Erick">
+        <h1>Erick Jesus Zamora Echazarreta</h1>
+        <p>Estudiante de LTI - FACPYA | Monterrey, NL</p>
+        <p><strong>Email:</strong> erickzamorae77@gmail.com | <strong>Tel:</strong> 8129117499</p>
+    </section>
+
+    <!-- Contenido -->
+    <div class="container">
+
+        <div class="section">
+            <h2>Quién soy</h2>
+            <p>
+                Soy una persona curiosa y creativa, con gran interés en la innovación tecnológica y la resolución de problemas. 
+                Me gusta aprender cosas nuevas cada día y aplicarlas en proyectos personales o académicos. 
+                Además de la tecnología, disfruto de la lectura, el cine y los deportes al aire libre.
+            </p>
+        </div>
+
+        <div class="section">
+            <h2>Formación Académica</h2>
+            <p>
+                Curso la Licenciatura en Tecnologías de la Información en FACPYA, actualmente en 7mo semestre. 
+                A lo largo de mi formación he desarrollado habilidades en desarrollo web, bases de datos, administración de TI 
+                y análisis de datos. Me gusta trabajar en proyectos en equipo, ya que me permiten aprender de diferentes perspectivas.
+            </p>
+        </div>
+
+        <div class="section">
+            <h2>Objetivos Profesionales</h2>
+            <p>
+                Mi objetivo es desarrollarme profesionalmente en el área de la programación y la analítica de datos, 
+                buscando siempre aportar soluciones innovadoras. 
+                Me interesa crecer en el sector empresarial aplicando la tecnología en procesos de transformación digital 
+                que impacten positivamente a las organizaciones.
+            </p>
+        </div>
+
+        <div class="section">
+            <h2>Mis Prácticas</h2>
+            <div class="grid">
+                <a href="tablaDetiquetas.html" class="practica">📊 Tabla de Etiquetas</a>
+                <a href="tablaHorario.html" class="practica">📅 Horario Academico</a>
+                <a href="curriculum2.html" class="practica">📄 Currículum</a>
+                <a href="cafeteriaCompleto.html" class="practica">☕ Practica Cafetería</a>
+                <a href="paginaClima.html" class="practica">☀️ Pagina Clima</a>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        © 2025 - Página Personal de Erick Zamora
+    </footer>
+
+</body>
+</html>

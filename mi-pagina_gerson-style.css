@@ -1,0 +1,107 @@
+body {
+    font-family: "Segoe UI", Roboto, sans-serif;
+    margin: 0;
+    background-color: #0d1117;
+    color: #e6edf3;
+}
+
+/* Header solo con el nombre */
+header {
+    background: linear-gradient(90deg, #0a58ca, #057bff);
+    padding: 25px 40px;
+    box-shadow: 0 3px 12px rgba(0,0,0,0.5);
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 1.8rem;
+    color: #fff;
+    letter-spacing: 1.5px;
+    text-shadow: 0 0 6px rgba(0, 183, 255, 0.8);
+}
+
+/* Presentación */
+.presentacion {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1000px;
+    margin: 80px auto;
+    padding: 40px;
+    gap: 50px;
+    background: rgba(255, 255, 255, 0.02);
+    border-radius: 16px;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.4);
+}
+
+.presentacion .texto {
+    flex: 1;
+}
+
+.presentacion h2 {
+    font-size: 2rem;
+    margin-top: 0;
+    color: #4ea1ff;
+    text-shadow: 0 0 6px rgba(78,161,255,0.5);
+}
+
+.presentacion p {
+    line-height: 1.6;
+    margin: 15px 0;
+    color: #cdd9e5;
+}
+
+/* Foto */
+.presentacion .foto {
+    flex: 0.8;
+    text-align: center;
+}
+
+.presentacion img {
+    border-radius: 14px;
+    border: 2px solid #4ea1ff;
+    box-shadow: 0 6px 18px rgba(0,0,0,0.6);
+}
+
+/* Secciones */
+main section {
+    max-width: 900px;
+    margin: 50px auto;
+    padding: 20px;
+}
+
+main h2 {
+    color: #57a6ff;
+    margin-top: 0;
+    font-size: 1.4rem;
+    border-bottom: 1px solid #2d3b4f;
+    padding-bottom: 8px;
+}
+
+main p, main li {
+    line-height: 1.6;
+    font-size: 1rem;
+    color: #cdd9e5;
+}
+
+/* Listas */
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+section ul li::before {
+    content: "▹";
+    color: #4ea1ff;
+    margin-right: 8px;
+}
+
+/* Footer */
+.footer {
+    text-align: center;
+    margin: 60px 0 20px;
+    font-size: 0.9rem;
+    color: #8b949e;
+}

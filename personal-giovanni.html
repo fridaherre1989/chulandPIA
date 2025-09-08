@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página Personal - Giovanni Missael</title>
+    <style>
+        /* ==== ESTILOS GENERALES ==== */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: #f8f9fa;
+            color: #333;
+        }
+
+        /* ==== HERO ==== */
+        .hero {
+            background: linear-gradient(to right, #20c997, #198754);
+            color: white;
+            text-align: center;
+            padding: 70px 20px;
+        }
+
+        .hero img {
+            width: 160px;
+            height: 160px;
+            border-radius: 50%;
+            border: 4px solid white;
+            margin-bottom: 15px;
+        }
+
+        .hero h1 {
+            font-size: 2.5rem;
+        }
+
+        .hero p {
+            font-size: 1.2rem;
+        }
+
+        /* ==== CONTENEDOR PRINCIPAL ==== */
+        .container {
+            max-width: 1000px;
+            margin: auto;
+            padding: 40px 20px;
+        }
+
+        .section {
+            background: white;
+            padding: 25px;
+            margin-bottom: 25px;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+        }
+
+        .section h2 {
+            color: #198754;
+            margin-bottom: 12px;
+        }
+
+        /* ==== PRÁCTICAS ==== */
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+            gap: 15px;
+        }
+
+        .practica {
+            display: block;
+            padding: 15px;
+            text-align: center;
+            background: #20c997;
+            color: white;
+            text-decoration: none;
+            border-radius: 8px;
+            font-weight: 500;
+            transition: 0.3s;
+        }
+
+        .practica:hover {
+            background: #198754;
+        }
+
+        /* ==== FOOTER ==== */
+        footer {
+            background: #1e272e;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 30px;
+        }
+
+        /* ==== RESPONSIVE ==== */
+        @media (max-width: 768px) {
+            .hero h1 {
+                font-size: 2rem;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Portada -->
+    <section class="hero">
+        <img src="fotoGiovanni.jpeg" alt="Foto de Giovanni">
+        <h1>Giovanni Missael Rodriguez</h1>
+        <p>Estudiante de LTI - FACPYA | Monterrey, NL</p>
+        <p><strong>Email:</strong> giovannimissae@gmail.com | <strong>Tel:</strong> 8122977411</p>
+    </section>
+
+    <!-- Contenido -->
+    <div class="container">
+
+        <div class="section">
+            <h2>Sobre mí</h2>
+            <p>
+                Soy Giovanni Missael, un apasionado por la tecnología y la innovación. 
+                Me encanta aprender nuevas herramientas digitales, explorar soluciones creativas 
+                y aplicar mis conocimientos en proyectos académicos y personales. 
+                Fuera de la escuela disfruto de los videojuegos.
+            </p>
+        </div>
+
+        <div class="section">
+            <h2>Trayectoria Académica</h2>
+            <p>
+                Actualmente curso el 6to semestre de la Licenciatura en Tecnologías de la Información en FACPYA. 
+                He desarrollado competencias en programación, análisis de datos, administración de TI y trabajo en equipo. 
+                Mi meta es especializarme en el desarrollo de software y análisis de datos aplicados a los negocios.
+            </p>
+        </div>
+
+        <div class="section">
+            <h2>Visión Profesional</h2>
+            <p>
+                En el futuro me visualizo trabajando en proyectos de transformación digital, 
+                aportando soluciones tecnológicas que impacten de manera positiva a las organizaciones. 
+                Aspiro a combinar mi conocimiento técnico con habilidades de liderazgo y gestión de proyectos.
+            </p>
+        </div>
+
+        <div class="section">
+            <h2>Mis Prácticas</h2>
+            <div class="grid">
+                <a href="TABLA ETIQUETAS.html" class="practica">Tabla de Etiquetas</a>
+                <a href="HORARIO ACADEMICO.html" class="practica">Horario Académico</a>
+                <a href="Curriculum Gio.html" class="practica">Currículum</a>
+                <a href="cafeteria-giovanni.html" class="practica">Página Cafetería</a>
+                <a href="climaaa.html" class="practica">Página del Clima</a>
+            </div>
+        </div>
+    </div>
+
+
+    <footer>
+        © 2025 - Página Personal de Giovanni Missael
+    </footer>
+
+</body>
+</html>

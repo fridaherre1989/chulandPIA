@@ -1,0 +1,101 @@
+body {
+    font-family: "Trebuchet MS", 'Times New Roman', Times, serif;
+    display: flex;
+    margin: 0;
+    background-color: #f7f7f7;
+    flex-wrap: wrap;
+}
+
+/* Barra superior */
+.barra-superior {
+    width: 100%;
+    background: #502c46;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.barra-superior h1 {
+    margin: 0;
+    font-size: 2rem;
+}
+
+.barra-superior h3 {
+    margin: 5px 0 0;
+    font-weight: normal;
+    letter-spacing: 1px;
+}
+
+/* Columna izquierda */
+header {
+    background: #3d0033;
+    color: white;
+    width: 30%;
+    padding: 20px;
+    box-sizing: border-box;
+    min-height: 100vh;
+    text-align: center;
+}
+
+header img {
+    border-radius: 50%;
+    margin-bottom: 15px;
+    border: 4px solid #442c50;
+}
+
+/* Iconos personalizados en intereses */
+.literatura::before { content: "📚 "; }
+.explorar::before { content: "🌍 "; }
+.cine::before { content: "🎬 "; }
+.gastronomia::before { content: "🍴 "; }
+
+header h2 {
+    font-size: 1rem;
+    margin-top: 25px;
+    border-bottom: 2px solid #ffffff55;
+    padding-bottom: 5px;
+    text-align: left;
+}
+
+header p {
+    font-size: 0.9rem;
+    text-align: left;
+    margin: 6px 0;
+}
+
+header ul {
+    list-style: none;
+    padding: 0;
+    text-align: left;
+}
+
+header li {
+    margin: 5px 0;
+    font-size: 0.9rem;
+}
+
+/* Columna derecha */
+main {
+    width: 70%;
+    padding: 30px;
+    box-sizing: border-box;
+    background: white;
+}
+
+main section {
+    margin-bottom: 30px;
+}
+
+main h2 {
+    font-size: 1.2rem;
+    color: #660046;
+    border-bottom: 2px solid #6c0f5b;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+}
+
+main p {
+    font-size: 1rem;
+    line-height: 1.6;
+    margin-bottom: 10px;
+}

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Clima - Oscar Holguín</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css">
+  <style>
+    body { font-family: Arial, sans-serif; background: #f4f6f9; margin: 0; color: #2c3e50; }
+    header { text-align: center; background: #1b263b; color: #f8f9fa; padding: 25px 15px; }
+    main { max-width: 900px; margin: 30px auto; background: #e9eef4; padding: 20px; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.15); }
+    h1, h2, h5 { color: #1b263b; }
+    .row { display: flex; flex-wrap: wrap; gap: 15px; justify-content: center; margin-top: 20px; }
+    .col { flex: 1 1 150px; background: white; border-radius: 8px; padding: 15px; text-align: center; box-shadow: 0 2px 8px rgba(0,0,0,0.1);}
+    table { width: 100%; border-collapse: collapse; margin-top: 20px; background: white; border-radius: 8px; overflow: hidden; }
+    th, td { border: 1px solid #ccc; padding: 8px; text-align: center; }
+    th { background: #1b263b; color: white; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Clima en San Nicolás de los Garza</h1>
+    <h2>Semana 02 al 07 de Septiembre</h2>
+    <p>Responsable: Oscar Holguín</p>
+  </header>
+
+  <main>
+    <section class="row">
+      <div class="col"><h5>Lunes 02</h5><i class="fa-solid fa-cloud fa-2x"></i><p>Nublado</p><p>20°C | 25°C</p></div>
+      <div class="col"><h5>Martes 03</h5><i class="fa-solid fa-bolt fa-2x"></i><p>Tormenta Eléctrica</p><p>23°C | 27°C</p></div>
+      <div class="col"><h5>Miércoles 04</h5><i class="fa-solid fa-cloud-rain fa-2x"></i><p>Lluvioso</p><p>25°C | 30°C</p></div>
+      <div class="col"><h5>Jueves 05</h5><i class="fa-solid fa-wind fa-2x"></i><p>Con Viento</p><p>24°C | 28°C</p></div>
+      <div class="col"><h5>Viernes 06</h5><i class="fa-solid fa-sun fa-2x"></i><p>Soleado</p><p>32°C | 35°C</p></div>
+      <div class="col"><h5>Sábado 07</h5><i class="fa-solid fa-cloud-moon-rain fa-2x"></i><p>Lluvioso</p><p>20°C | 25°C</p></div>
+    </section>
+
+    <section>
+      <h2>Pronóstico Extendido</h2>
+      <table>
+        <thead><tr><th>Fecha</th><th>Máx</th><th>Mín</th><th>Estado</th></tr></thead>
+        <tbody>
+          <tr><td>8 de Septiembre</td><td>28</td><td>18</td><td>Parcialmente Nublado</td></tr>
+          <tr><td>9 de Septiembre</td><td>30</td><td>20</td><td>Despejado</td></tr>
+          <tr><td>10 de Septiembre</td><td>28</td><td>18</td><td>Parcialmente Soleado</td></tr>
+          <tr><td>11 de Septiembre</td><td>30</td><td>16</td><td>Mayormente Nublado</td></tr>
+          <tr><td>12 de Septiembre</td><td>26</td><td>18</td><td>Soleado</td></tr>
+          <tr><td>13 de Septiembre</td><td>28</td><td>18</td><td>Despejado</td></tr>
+          <tr><td>14 de Septiembre</td><td>30</td><td>29</td><td>Soleado</td></tr>
+        </tbody>
+      </table>
+    </section>
+  </main>
+</body>
+</html>

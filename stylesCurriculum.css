@@ -1,0 +1,88 @@
+/* ==== ESTILOS GENERALES ==== */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(to right, #0f2027, #203a43, #2c5364); /* Fondo degradado azul-verde */
+    color: #f0f8ff; /* Texto blanco suave */
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: rgba(0, 128, 128, 0.8); /* Azul-verde semi-transparente */
+    border-bottom: 3px solid #00ffcc; /* Borde neón */
+    padding: 30px 20px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.3);
+}
+
+header h1 {
+    font-size: 2.5em;
+    margin: 0.2em 0;
+    color: #00ffcc;
+    text-shadow: 1px 1px 4px #000;
+}
+
+header h3 {
+    margin: 0.2em 0;
+    color: #b3ffcc;
+}
+
+header img {
+    border-radius: 50%;
+    border: 3px solid #00ffcc;
+    margin-top: 10px;
+    box-shadow: 0 0 10px #00ffcc;
+}
+
+/* ==== MAIN ==== */
+main {
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: rgba(0, 0, 50, 0.5);
+    border-radius: 15px;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.5);
+}
+
+/* ==== SECCIONES ==== */
+section {
+    margin-bottom: 25px;
+    padding: 15px;
+    border-left: 5px solid #00ffcc;
+    background-color: rgba(0, 128, 128, 0.2);
+    border-radius: 10px;
+}
+
+section h2 {
+    color: #00ffcc;
+    text-decoration: underline;
+    margin-bottom: 10px;
+}
+
+/* ==== LISTAS ==== */
+ul {
+    list-style-type: square;
+    padding-left: 20px;
+}
+
+ul li {
+    margin-bottom: 8px;
+}
+
+/* ==== PARÁGRAFOS ==== */
+p {
+    line-height: 1.6;
+    color: #e0f7fa;
+}
+
+/* ==== DATOS PERSONALES ==== */
+ul li strong {
+    color: #00ffcc;
+}
+
+/* ==== EFECTO NEÓN AL PASAR EL MOUSE ==== */
+section:hover {
+    transform: scale(1.02);
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0 0 15px #00ffcc;
+}

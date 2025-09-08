@@ -1,0 +1,104 @@
+body {
+    font-family: "Trebuchet MS", Arial, sans-serif;
+    display: flex;
+    margin: 0;
+    background-color: #f7f7f7;
+    flex-wrap: wrap;
+}
+
+/* Barra superior */
+.barra-superior {
+    width: 100%;
+    background: #4e0000;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 15px 0;
+    box-shadow: 0 3px 6px rgb(0, 0, 0);
+}
+
+.barra-superior h1 {
+    margin: 0;
+    font-size: 1.8rem;
+}
+
+/* Columna izquierda */
+header {
+    background: #7a0000;
+    color: white;
+    width: 30%;
+    padding: 20px;
+    box-sizing: border-box;
+    min-height: 100vh;
+    text-align: center;
+}
+
+header img {
+    border-radius: 10%;
+    margin-bottom: 15px;
+    border: 4px solid #fff;
+}
+
+header h3 {
+    font-size: 0.95rem;
+    margin-bottom: 20px;
+    color: #cfd9df;
+}
+
+header h2 {
+    font-size: 1.1rem;
+    margin-top: 25px;
+    border-bottom: 2px solid #ffffff55;
+    padding-bottom: 5px;
+    text-align: left;
+}
+
+header p {
+    font-size: 0.9rem;
+    text-align: left;
+    margin: 6px 0;
+}
+
+header ul {
+    list-style: none;
+    padding: 0;
+    text-align: left;
+}
+
+header li {
+    margin: 5px 0;
+    font-size: 0.9rem;
+}
+
+/* Columna derecha */
+main {
+    width: 70%;
+    padding: 30px;
+    box-sizing: border-box;
+    background: white;
+    border: 4px solid #220707;
+}
+
+main section {
+    background-color: #fff9f9;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-left: 6px solid #810000;
+    border-radius: 8px;
+    box-shadow: 0 3px 8px rgb(0, 0, 0);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+main h2 {
+    font-size: 1.2rem;
+    color: #ac0000;
+    border-bottom: 2px solid #bb0000;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+}
+
+main p {
+    font-size: 0.95rem;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+

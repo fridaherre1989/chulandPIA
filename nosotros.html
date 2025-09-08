@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nosotros</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background: #f4f8fb;
+        }
+
+        header {
+            background: linear-gradient(90deg, #0d6efd, #20c997);
+            color: white;
+            text-align: center;
+            padding: 20px;
+            font-size: 1.8rem;
+            font-weight: bold;
+        }
+
+        main {
+            max-width: 1000px;
+            margin: 30px auto;
+            padding: 20px;
+        }
+
+        h2 {
+            text-align: center;
+            margin-bottom: 30px;
+            color: #0d6efd;
+        }
+
+        .container-integrantes {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+            gap: 20px;
+        }
+
+        .integrante {
+            background: #fff;
+            border-radius: 12px;
+            padding: 15px;
+            text-align: center;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            transition: transform 0.3s ease;
+        }
+
+        .integrante:hover {
+            transform: translateY(-5px);
+        }
+
+        .integrante img {
+            border-radius: 50%;
+            margin-bottom: 10px;
+        }
+
+        .integrante p {
+            margin: 5px 0;
+        }
+
+        .integrante a {
+            display: inline-block;
+            margin-top: 10px;
+            padding: 8px 12px;
+            border-radius: 6px;
+            background: #0d6efd;
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+            transition: background 0.3s ease;
+        }
+
+        .integrante a:hover {
+            background: #198754;
+        }
+
+        footer {
+            margin-top: 30px;
+            text-align: center;
+            padding: 15px;
+            background: #212529;
+            color: #ccc;
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        Nosotros
+    </header>
+
+    <main>
+        <h2>Integrantes del equipo</h2>
+        <div class="container-integrantes">
+            <div class="integrante">
+                <img src="alexaDuran.jpg" alt="Foto Alumno 1" width="150">
+                <p><strong>Nombre:</strong> Alexa Duran Coronado</p>
+                <p><strong>Matrícula:</strong> 2059172</p>
+                <a href="PagpersonalAlexa.html">Ver página personal</a>
+            </div>
+            <div class="integrante">
+                <img src="fridaHerrera.jpg" alt="Foto Alumno 2" width="150">
+                <p><strong>Nombre:</strong> Frida Alejandra Herrera Charles</p>
+                <p><strong>Matrícula:</strong> 2076285</p>
+                <a href="personal-frida.html">Ver página personal</a>
+            </div>
+            <div class="integrante">
+                <img src="gersonMtz.jpg" alt="Foto Alumno 3" width="150">
+                <p><strong>Nombre:</strong> Gerson Obed Martinez Cabello</p>
+                <p><strong>Matrícula:</strong> 2062978</p>
+                <a href="mipagina-gerson.html">Ver página personal</a>
+            </div>
+            <div class="integrante">
+                <img src="fotoGiovanni.jpeg" alt="Foto Alumno 4" width="150">
+                <p><strong>Nombre:</strong> Giovanni Missael Rodriguez Sanchez</p>
+                <p><strong>Matrícula:</strong> 1955224</p>
+                <a href="personal-giovanni.html">Ver página personal</a>
+            </div>
+            <div class="integrante">
+                <img src="CurriculumErick_Foto.jpg" alt="Foto Alumno 5" width="150">
+                <p><strong>Nombre:</strong> Erick Jesus Zamora Echazarreta</p>
+                <p><strong>Matrícula:</strong> 2048676</p>
+                <a href="personal-erick.html">Ver página personal</a>
+            </div>
+            <div class="integrante">
+                <img src="oscarPeña.jpg" alt="Foto Alumno 6" width="150">
+                <p><strong>Nombre:</strong> Oscar Israel Holguín Peña </p>
+                <p><strong>Matrícula:</strong> 2084166</p>
+                <a href="OscarPersonal.html">Ver página personal</a>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        © 2025 - Fundamentos de Desarrollo Web | Equipo 7
+    </footer>
+</body>
+</html>
